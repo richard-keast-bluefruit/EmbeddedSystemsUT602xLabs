@@ -1,0 +1,10 @@
+Dependencies for Project 'Lab4', Target 'IO': (DO NOT MODIFY !)
+F (.\main.cpp)(0x54C2B30B)(--cpp -c --cpu Cortex-M4 -D__EVAL -g -O0 --apcs=interwork --split_sections --signed_chars -I.. -I..\..\..-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Luminary-Drvmdk -DPART_LM4F120H5QR -D__cplusplus-o .\main.o --omf_browse .\main.crf --depend .\main.d)
+I (TExaS.h)(0x54A07A02)
+I (LaunchPad.h)(0x54C2B41B)
+F (.\startup.s)(0x529A117C)(--cpu Cortex-M4 --pd "__EVAL SETA 1" -g --apcs=interwork -I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Luminary--list .\startup.lst --xref -o .\startup.o --depend .\startup.d)
+F (.\LaunchPad.cpp)(0x54C2B41B)(--cpp -c --cpu Cortex-M4 -D__EVAL -g -O0 --apcs=interwork --split_sections --signed_chars -I.. -I..\..\..-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Luminary-Drvmdk -DPART_LM4F120H5QR -D__cplusplus-o .\launchpad.o --omf_browse .\launchpad.crf --depend .\launchpad.d)
+I (LaunchPad.h)(0x54C2B41B)
+I (..\tm4c123gh6pm.h)(0x51D45492)
+F (.\texas.o)(0x54A07896)()
+F (..\tm4c123gh6pm.h)(0x51D45492)()

@@ -13,8 +13,6 @@ private:
    unsigned long m_LEDOut;      // outputs to PF3,PF2,PF1 (multicolor LED)
    
    void InitPortF();
-   void Delay();
-   void EnableInterrupts();
 };
 
 #endif

@@ -19,11 +19,10 @@ extern "C"
 #include "LaunchPad.h"
 
 int main(void)
-{    
-  TExaS_Init(SW_PIN_PF40,LED_PIN_PF321); 
-  //EnableInterrupts();  // The grader uses interrupts
-   
+{  
    LaunchPad launchPad;
+  
+   TExaS_Init(SW_PIN_PF40,LED_PIN_PF321); 
    
    while(1)
 	{

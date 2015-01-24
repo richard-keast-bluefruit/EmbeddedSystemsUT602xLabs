@@ -6,16 +6,25 @@
 class MockRGBLED : public RGBLEDInterface
 {
 public:
+   MockRGBLED()
+      :
+      m_lastColour(RGBLEDColours::ColourCount)
+   {
+   }
+
    void SetColour(RGBLEDColours::Value colour)
    {
-
+      m_lastColour = colour;
    }
 
    // mock helpers
    RGBLEDColours::Value GetLastColour()
    {
-      return RGBLEDColours::ColourCount;
+      return m_lastColour;
    }
+
+private:
+   RGBLEDColours::Value m_lastColour;
 };
 
 #endif

@@ -17,4 +17,16 @@ void Lab4::Run()
    {
       m_rgbLED.SetColour(RGBLEDColours::Dark);
    }
+   else if (switch1Pressed && !switch2Pressed)
+   {
+      m_rgbLED.SetColour(RGBLEDColours::Red);
+   }
+   else if (!switch1Pressed && switch2Pressed)
+   {
+      m_rgbLED.SetColour(RGBLEDColours::Green);
+   }
+   else if (switch1Pressed && switch2Pressed)
+   {
+      m_rgbLED.SetColour(RGBLEDColours::Blue);
+   }
 }

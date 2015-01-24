@@ -7,25 +7,25 @@
 class MockSwitch : public SwitchInterface
 {
 public:
-   MockSwitch(Switches::Value switchValue)
+   MockSwitch()
       :
-      m_switch(switchValue)
+      m_switchPressed(false)
    {
    }
 
    bool IsPressed()
    {
-      return false;
+      return m_switchPressed;
    }
 
    // mock helpers
-   void SetPressedState(bool state)
+   void SetPressed(bool pressed)
    {
-
+      m_switchPressed = pressed;
    }
 
 private:
-   Switches::Value m_switch;
+   bool m_switchPressed;
 };
 
 #endif

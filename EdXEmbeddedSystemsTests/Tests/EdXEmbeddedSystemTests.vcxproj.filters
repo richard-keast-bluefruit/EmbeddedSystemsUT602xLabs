@@ -4,21 +4,10 @@
     <Filter Include="Tests">
       <UniqueIdentifier>{dae41284-44d9-468c-820b-ea1c2052c659}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Mocks">
-      <UniqueIdentifier>{5db301b9-aaec-4100-9c53-0a93a8e1787c}</UniqueIdentifier>
-    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="tests.Lab4.cpp">
       <Filter>Tests</Filter>
     </ClCompile>
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="..\..\Mocks\mock.Switch.h">
-      <Filter>Mocks</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\Mocks\mock.RGBLED.h">
-      <Filter>Mocks</Filter>
-    </ClInclude>
   </ItemGroup>
 </Project>

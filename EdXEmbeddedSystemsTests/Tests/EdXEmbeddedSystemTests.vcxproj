@@ -85,16 +85,9 @@
     <ProjectReference Include="..\..\gtest-1.7.0\msvc\gtest_main.vcxproj">
       <Project>{3af54c8a-10bf-4332-9147-f68ed9862032}</Project>
     </ProjectReference>
-    <ProjectReference Include="..\..\LabBaseCode\LabBaseCode.vcxproj">
-      <Project>{a79dbefe-4a9f-4a21-abcb-c5ddcddb8101}</Project>
-    </ProjectReference>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="tests.Lab4.cpp" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="..\..\Mocks\mock.RGBLED.h" />
-    <ClInclude Include="..\..\Mocks\mock.Switch.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

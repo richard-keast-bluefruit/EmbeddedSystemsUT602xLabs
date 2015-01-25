@@ -2,34 +2,16 @@
 #include "tm4c123gh6pm.h"
 
 LaunchPad::LaunchPad()
+ : m_switch1(Switches::Switch1),
+   m_switch2(Switches::Switch2),
+   m_lab4(m_switch1, m_switch2, m_led)
 {
    InitPortF();
 }
 
 void LaunchPad::Run()
 {
-   m_switch1 = GPIO_PORTF_DATA_R & 0x10;
-   m_switch2 = GPIO_PORTF_DATA_R & 0x01;
-   
-   if (!m_switch1 && !m_switch2)
-	{                     
-      GPIO_PORTF_DATA_R = 0x04;
-   } 
-	else
-	{                           
-      if ((!m_switch1) && m_switch2)
-		{                
-        GPIO_PORTF_DATA_R = 0x02;
-      } 
-		else if (m_switch1 && (!m_switch2))
-      {              
-         GPIO_PORTF_DATA_R = 0x08;
-      }
-		else
-		{                        
-         GPIO_PORTF_DATA_R = 0x00;
-      }
-   }
+   m_lab4.Run();
 }
 
 void LaunchPad::InitPortF()

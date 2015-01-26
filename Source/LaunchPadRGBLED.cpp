@@ -3,7 +3,7 @@
 
 static const unsigned short RedLED = 0x02;
 static const unsigned short BlueLED = 0x04;
-static const unsigned short GreenLED = 0x06;
+static const unsigned short GreenLED = 0x08;
 
 void LaunchPadRGBLED::SetColour(RGBLEDColours::Value colour)
 {
@@ -40,5 +40,5 @@ void LaunchPadRGBLED::SetColour(RGBLEDColours::Value colour)
 
 void LaunchPadRGBLED::ClearLEDS()
 {
-   GPIO_PORTF_DATA_R &= ~(RedLED & BlueLED & GreenLED);
+   GPIO_PORTF_DATA_R &= (~RedLED & ~BlueLED & ~GreenLED);
 }

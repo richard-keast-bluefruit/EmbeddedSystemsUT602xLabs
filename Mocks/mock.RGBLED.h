@@ -7,8 +7,7 @@ class MockRGBLED : public RGBLEDInterface
 {
 public:
    MockRGBLED()
-      :
-      m_lastColour(RGBLEDColours::ColourCount)
+   : m_lastColour(RGBLEDColours::ColourCount)
    {
    }
 

@@ -14,10 +14,10 @@
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\..\Mocks\mock.Switch.h">
+    <ClInclude Include="..\..\Mocks\mock.RGBLED.h">
       <Filter>Mocks</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\Mocks\mock.RGBLED.h">
+    <ClInclude Include="..\..\Mocks\mock.Switch.h">
       <Filter>Mocks</Filter>
     </ClInclude>
   </ItemGroup>

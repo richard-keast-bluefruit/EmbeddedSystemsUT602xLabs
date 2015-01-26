@@ -2,14 +2,12 @@
 #define MOCK_SWITCH_H
 
 #include "SwitchInterface.h"
-#include "Switches.h"
 
 class MockSwitch : public SwitchInterface
 {
 public:
    MockSwitch()
-      :
-      m_switchPressed(false)
+   : m_switchPressed(false)
    {
    }
 

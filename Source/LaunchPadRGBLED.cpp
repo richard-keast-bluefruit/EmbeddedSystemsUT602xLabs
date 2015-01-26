@@ -3,21 +3,38 @@
 
 void LaunchPadRGBLED::SetColour(RGBLEDColours::Value colour)
 {
+   ClearLEDS();
+   
    switch (colour)
    {
       case RGBLEDColours::Red:
-         GPIO_PORTF_DATA_R = 0x02;
+         GPIO_PORTF_DATA_R |= RedLED;
          break;
       case RGBLEDColours::Blue:
-         GPIO_PORTF_DATA_R = 0x04;
+         GPIO_PORTF_DATA_R |= BlueLED;
          break;
       case RGBLEDColours::Green:
-         GPIO_PORTF_DATA_R = 0x08;
+         GPIO_PORTF_DATA_R |= GreenLED;
+         break;
+      case RGBLEDColours::Yellow:
+         GPIO_PORTF_DATA_R |= (RedLED & GreenLED);
+         break;
+      case RGBLEDColours::SkyBlue:
+         GPIO_PORTF_DATA_R |= (BlueLED & GreenLED);
+         break;
+      case RGBLEDColours::White:
+         GPIO_PORTF_DATA_R |= (RedLED & BlueLED & GreenLED);
+         break;
+      case RGBLEDColours::Pink:
+         GPIO_PORTF_DATA_R |= (RedLED & BlueLED);
          break;
       case RGBLEDColours::Dark:
-         GPIO_PORTF_DATA_R = 0x00;
-         break;
       default:
          break;
    }
+}
+
+void LaunchPadRGBLED::ClearLEDS()
+{
+   GPIO_PORTF_DATA_R &= ~(RedLED & BlueLED & GreenLED);
 }

@@ -1,6 +1,10 @@
 #include "LaunchPadRGBLED.h"
 #include "tm4c123gh6pm.h"
 
+static const unsigned short RedLED = 0x02;
+static const unsigned short BlueLED = 0x04;
+static const unsigned short GreenLED = 0x06;
+
 void LaunchPadRGBLED::SetColour(RGBLEDColours::Value colour)
 {
    ClearLEDS();

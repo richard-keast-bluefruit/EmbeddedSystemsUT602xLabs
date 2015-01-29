@@ -24,9 +24,6 @@
     <ClInclude Include="..\Source\SwitchInterface.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\Source\Switches.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\Lab4_IO\Lab4.cpp">

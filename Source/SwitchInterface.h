@@ -4,7 +4,7 @@
 class SwitchInterface
 {
 public:
-   ~SwitchInterface() {}
+   virtual ~SwitchInterface() {}
    virtual bool IsPressed() = 0;
 };
 

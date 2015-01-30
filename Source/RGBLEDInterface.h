@@ -20,7 +20,7 @@ struct RGBLEDColours
 class RGBLEDInterface
 {
 public:
-   ~RGBLEDInterface() {}
+   virtual ~RGBLEDInterface() {}
    virtual void SetColour(RGBLEDColours::Value colour) = 0;
 };
 

@@ -362,7 +362,7 @@
               <MiscControls></MiscControls>
               <Define>rvmdk PART_LM4F120H5QR</Define>
               <Undefine></Undefine>
-              <IncludePath>..;..\..\..</IncludePath>
+              <IncludePath>..;..\..\..;..\Source\</IncludePath>
             </VariousControls>
           </Cads>
           <Aads>
@@ -416,9 +416,24 @@
               <FilePath>.\UART.c</FilePath>
             </File>
             <File>
-              <FileName>main.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>.\main.c</FilePath>
+              <FileName>main.cpp</FileName>
+              <FileType>8</FileType>
+              <FilePath>.\main.cpp</FilePath>
+            </File>
+            <File>
+              <FileName>LaunchPadUart0.cpp</FileName>
+              <FileType>8</FileType>
+              <FilePath>..\Source\LaunchPadUart0.cpp</FilePath>
+            </File>
+            <File>
+              <FileName>SerialIO.cpp</FileName>
+              <FileType>8</FileType>
+              <FilePath>..\Source\SerialIO.cpp</FilePath>
+            </File>
+            <File>
+              <FileName>Lab5.cpp</FileName>
+              <FileType>8</FileType>
+              <FilePath>.\Lab5.cpp</FilePath>
             </File>
           </Files>
         </Group>

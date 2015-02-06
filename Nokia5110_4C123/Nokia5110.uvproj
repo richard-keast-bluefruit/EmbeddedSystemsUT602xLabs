@@ -7,7 +7,7 @@
 
   <Targets>
     <Target>
-      <TargetName>SpaceInvaders</TargetName>
+      <TargetName>Nokia5110</TargetName>
       <ToolsetNumber>0x4</ToolsetNumber>
       <ToolsetName>ARM-ADS</ToolsetName>
       <TargetOption>
@@ -45,7 +45,7 @@
             <InvalidFlash>1</InvalidFlash>
           </TargetStatus>
           <OutputDirectory>.\</OutputDirectory>
-          <OutputName>SpaceInvaders</OutputName>
+          <OutputName>Nokia5110</OutputName>
           <CreateExecutable>1</CreateExecutable>
           <CreateLib>0</CreateLib>
           <CreateHexFile>0</CreateHexFile>
@@ -170,7 +170,7 @@
             <Capability>1</Capability>
             <DriverSelection>4097</DriverSelection>
           </Flash1>
-          <bUseTDR>0</bUseTDR>
+          <bUseTDR>1</bUseTDR>
           <Flash2>BIN\lmidk-agdi.dll</Flash2>
           <Flash3>"" ()</Flash3>
           <Flash4></Flash4>
@@ -210,7 +210,7 @@
             <GenPPlst>0</GenPPlst>
             <AdsCpuType>"Cortex-M4"</AdsCpuType>
             <RvctDeviceName></RvctDeviceName>
-            <mOS>1</mOS>
+            <mOS>0</mOS>
             <uocRom>0</uocRom>
             <uocRam>0</uocRam>
             <hadIROM>1</hadIROM>
@@ -416,19 +416,14 @@
               <FilePath>.\Nokia5110.c</FilePath>
             </File>
             <File>
-              <FileName>random.s</FileName>
-              <FileType>2</FileType>
-              <FilePath>.\random.s</FilePath>
+              <FileName>Nokia5110TestMain.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\Nokia5110TestMain.c</FilePath>
             </File>
             <File>
-              <FileName>SpaceInvaders.c</FileName>
+              <FileName>PLL.c</FileName>
               <FileType>1</FileType>
-              <FilePath>.\SpaceInvaders.c</FilePath>
-            </File>
-            <File>
-              <FileName>TExaS.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>.\TExaS.c</FilePath>
+              <FilePath>.\PLL.c</FilePath>
             </File>
           </Files>
         </Group>

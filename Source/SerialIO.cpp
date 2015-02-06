@@ -1,5 +1,4 @@
 #include "SerialIO.h"
-#inlcude <sstream>
 
 using namespace ::std;
 
@@ -19,6 +18,14 @@ void SerialIO::SendString(std::string txString)
 
 string SerialIO::ReceiveString()
 {
+   string rxString;
+   unsigned char rxChar;
    
-   return "";
+   while (rxChar != '\n')
+   {
+      rxChar = m_uart.GetByteReceived();
+      rxString.append(1, rxChar);
+   }
+   
+   return rxString;
 }

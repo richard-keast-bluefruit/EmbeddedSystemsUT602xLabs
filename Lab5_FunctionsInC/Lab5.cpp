@@ -1,11 +1,6 @@
 #include "Lab5.h"
+#include <string>
 
-Lab5::Lab5(SerialIOInterface &serialIO)
-   : m_serialIO(serialIO)
-{
-}
+using namespace ::std;
 
-void Lab5::Run()
-{
-   
-}
+

@@ -12,12 +12,18 @@
     <ClCompile Include="tests.Lab4.cpp">
       <Filter>Tests</Filter>
     </ClCompile>
+    <ClCompile Include="tests.Lab5.cpp">
+      <Filter>Tests</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\..\Mocks\mock.RGBLED.h">
       <Filter>Mocks</Filter>
     </ClInclude>
     <ClInclude Include="..\..\Mocks\mock.Switch.h">
+      <Filter>Mocks</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Mocks\mock.SerialIO.h">
       <Filter>Mocks</Filter>
     </ClInclude>
   </ItemGroup>

@@ -1,23 +1,29 @@
 extern "C"
 {
 #include "TExaS.h"
+#include "uart.h"
    void EnableInterrupts(void);  // Enable interrupts
 }
-#include "LaunchPadUart0.h"
-#include "SerialIO.h"
+#include "LaunchPad.h"
+#include "GraderSerialIO.h"
 #include "Lab5.h"
+
+using namespace ::std;
 
 int main(void)
 {  
-   LaunchPadUart0 launchPadUart0;
-   SerialIO serialIO(launchPadUart0);
-   Lab5 lab5(serialIO);
-  
    TExaS_Init(UART_PIN_PA0,UART_PIN_PA1); 
+   UART_Init();
+   printf("\nThis program calculates areas of rectangular rooms.\n");
    EnableInterrupts();
+   
+   GraderSerialIO serialIO;
+   Lab5 lab5;
+   LaunchPad launchPad(serialIO, lab5);
+  
    
    while(1)
 	{
-      lab5.Run();
+      launchPad.Run();
 	}
 }

@@ -4,7 +4,7 @@
 class Lab5
 {
 public:
-   
+   unsigned int CalcArea(unsigned int length, unsigned int width);
 
 };
 

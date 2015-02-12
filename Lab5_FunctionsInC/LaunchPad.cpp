@@ -27,7 +27,7 @@ void LaunchPad::Run()
    widthString = m_serialIO.ReceiveString();
    width = atoi(widthString.c_str());
    
-   area = 0; // area = m_lab5.
+   area = m_lab5.CalcArea(length, width);
    char temp[15];
    sprintf(temp, "%lu", area);
    areaString = temp;

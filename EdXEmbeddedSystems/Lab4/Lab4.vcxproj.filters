@@ -1,0 +1,91 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source files">
+      <UniqueIdentifier>{f98bc554-bf05-4f7b-af72-65e06f81c8c5}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header files">
+      <UniqueIdentifier>{1427b8cc-3d77-4511-9ffa-2e0aec3f80d4}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource files">
+      <UniqueIdentifier>{3515acdc-1b86-42cd-88e0-281f620fd3ec}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav</Extensions>
+    </Filter>
+    <Filter Include="Make files">
+      <UniqueIdentifier>{1fe18b8e-4136-41c8-8cf9-b61adaf1e3e0}</UniqueIdentifier>
+      <Extensions>*.mak</Extensions>
+    </Filter>
+    <Filter Include="Source files\Device-specific files">
+      <UniqueIdentifier>{3bfa6702-83f9-460c-bd2e-5b6a84841332}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\Device-specific files">
+      <UniqueIdentifier>{8b435f65-9c85-4e0a-84ac-e90739d8c746}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Makefile" />
+    <None Include="debug.mak">
+      <Filter>Make files</Filter>
+    </None>
+    <None Include="release.mak">
+      <Filter>Make files</Filter>
+    </None>
+    <None Include="mcu.mak">
+      <Filter>Source files\Device-specific files</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\Source\GraderSerialIO.cpp">
+      <Filter>Source files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\LaunchPadRGBLED.cpp">
+      <Filter>Source files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\LaunchPadSwitch.cpp">
+      <Filter>Source files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\SerialIO.cpp">
+      <Filter>Source files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Lab4_IO\LaunchPad.cpp">
+      <Filter>Source files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Lab4_IO\Lab4.cpp">
+      <Filter>Source files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\Source\GraderSerialIO.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\LaunchPadRGBLED.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\LaunchPadSwitch.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\LaunchPadSwitches.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\LaunchPadUart0.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\RGBLEDInterface.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\SwitchInterface.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Lab4_IO\Lab4.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Lab4_IO\LaunchPad.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\tm4c123gh6pm.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

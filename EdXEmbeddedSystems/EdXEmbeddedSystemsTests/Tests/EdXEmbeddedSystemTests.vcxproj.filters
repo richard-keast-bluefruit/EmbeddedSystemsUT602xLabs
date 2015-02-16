@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Tests">
+      <UniqueIdentifier>{dae41284-44d9-468c-820b-ea1c2052c659}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Mocks">
+      <UniqueIdentifier>{5db301b9-aaec-4100-9c53-0a93a8e1787c}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="tests.Lab4.cpp">
+      <Filter>Tests</Filter>
+    </ClCompile>
+    <ClCompile Include="tests.Lab5.cpp">
+      <Filter>Tests</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\Mocks\mock.RGBLED.h">
+      <Filter>Mocks</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Mocks\mock.Switch.h">
+      <Filter>Mocks</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Mocks\mock.SerialIO.h">
+      <Filter>Mocks</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

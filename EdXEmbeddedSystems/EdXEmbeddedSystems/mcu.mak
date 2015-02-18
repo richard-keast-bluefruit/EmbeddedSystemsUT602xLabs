@@ -16,7 +16,7 @@ OBJCOPY := $(TOOLCHAIN_ROOT)/bin/arm-none-eabi-objcopy.exe
 
 #Additional flags
 PREPROCESSOR_MACROS += 
-INCLUDE_DIRS += C:/ti/EdXEmbeddedSystems/Lab4_IO C:/ti/EdXEmbeddedSystems/Source C:/ti/EdXEmbeddedSystems/Lab4/Debug
+INCLUDE_DIRS += ./../Lab4_IO ./../Source ./../Lab4/Debug
 LIBRARY_DIRS += 
 LIBRARY_NAMES += 
 ADDITIONAL_LINKER_INPUTS += 

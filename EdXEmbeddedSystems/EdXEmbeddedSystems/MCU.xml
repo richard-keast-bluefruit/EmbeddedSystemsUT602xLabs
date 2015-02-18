@@ -10,9 +10,9 @@
     <CompilationFlags>
       <PreprocessorMacros />
       <IncludeDirectories>
-        <string>C:/ti/EdXEmbeddedSystems/Lab4_IO</string>
-        <string>C:/ti/EdXEmbeddedSystems/Source</string>
-        <string>C:/ti/EdXEmbeddedSystems/Lab4/Debug</string>
+        <string>./../Lab4_IO</string>
+        <string>./../Source</string>
+        <string>./../Lab4/Debug</string>
       </IncludeDirectories>
       <CFLAGS>-g -mthumb -mcpu=cortex-m4 -mfloat-abi=hard -mfpu=fpv4-sp-d16 -std=c++11 -specs=nosys.specs</CFLAGS>
       <CXXFLAGS>-g -mthumb -mcpu=cortex-m4 -mfloat-abi=hard -mfpu=fpv4-sp-d16 -std=c++11 -specs=nosys.specs</CXXFLAGS>

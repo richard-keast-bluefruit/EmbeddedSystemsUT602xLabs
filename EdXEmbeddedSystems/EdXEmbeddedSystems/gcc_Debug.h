@@ -377,8 +377,6 @@
 #endif
 
 // --- Include directories begin --- //
-//C:/ti/EdXEmbeddedSystems/Lab4_IO
-//C:/ti/EdXEmbeddedSystems/Source
 //c:\ti\gnuarm4.9\bin\../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/include/c++/4.9.3
 //c:\ti\gnuarm4.9\bin\../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/include/c++/4.9.3/arm-none-eabi/armv7e-m/fpu
 //c:\ti\gnuarm4.9\bin\../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/include/c++/4.9.3/backward
@@ -386,6 +384,9 @@
 //c:\ti\gnuarm4.9\bin\../lib/gcc/arm-none-eabi/4.9.3/include-fixed
 //c:\ti\gnuarm4.9\bin\../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/include
 //c:\ti\gnuarm4.9\bin\../arm-none-eabi/usr/include
+//./../Lab4_IO
+//./../Source
+//./../Lab4/Debug
 // --- Include directories end --- //
 
 

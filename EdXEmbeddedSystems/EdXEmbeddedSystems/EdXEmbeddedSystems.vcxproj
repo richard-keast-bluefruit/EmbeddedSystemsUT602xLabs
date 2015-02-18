@@ -35,7 +35,7 @@
   </ImportGroup>
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
-    <NMakeIncludeSearchPath>C:\ti\EdXEmbeddedSystems\Lab4_IO;C:\ti\EdXEmbeddedSystems\Source;c:\ti\gnuarm4.9\arm-none-eabi\include\c++\4.9.3;c:\ti\gnuarm4.9\arm-none-eabi\include\c++\4.9.3\arm-none-eabi\armv7e-m\fpu;c:\ti\gnuarm4.9\arm-none-eabi\include\c++\4.9.3\backward;c:\ti\gnuarm4.9\lib\gcc\arm-none-eabi\4.9.3\include;c:\ti\gnuarm4.9\lib\gcc\arm-none-eabi\4.9.3\include-fixed;c:\ti\gnuarm4.9\arm-none-eabi\include;c:\ti\gnuarm4.9\arm-none-eabi\usr\include;$(NMakeIncludeSearchPath)</NMakeIncludeSearchPath>
+    <NMakeIncludeSearchPath>c:\ti\gnuarm4.9\arm-none-eabi\include\c++\4.9.3;c:\ti\gnuarm4.9\arm-none-eabi\include\c++\4.9.3\arm-none-eabi\armv7e-m\fpu;c:\ti\gnuarm4.9\arm-none-eabi\include\c++\4.9.3\backward;c:\ti\gnuarm4.9\lib\gcc\arm-none-eabi\4.9.3\include;c:\ti\gnuarm4.9\lib\gcc\arm-none-eabi\4.9.3\include-fixed;c:\ti\gnuarm4.9\arm-none-eabi\include;c:\ti\gnuarm4.9\arm-none-eabi\usr\include;$(ProjectDir)\./../Lab4_IO;$(ProjectDir)\./../Source;$(ProjectDir)\./../Lab4/Debug;$(NMakeIncludeSearchPath)</NMakeIncludeSearchPath>
     <NMakeForcedIncludes>$(ProjectDir)\gcc_Debug.h;$(VISUALGDB_DIR)\gcc_compat.h;$(NMakeForcedIncludes)</NMakeForcedIncludes>
     <NMakeBuildCommandLine>"$(VISUALGDB_DIR)\VisualGDB.exe" /build "$(ProjectPath)" "/solution:$(SolutionPath)" "/config:$(Configuration)" "/platform:$(Platform)"</NMakeBuildCommandLine>
     <NMakeCleanCommandLine>"$(VISUALGDB_DIR)\VisualGDB.exe" /clean "$(ProjectPath)" "/solution:$(SolutionPath)" "/config:$(Configuration)" "/platform:$(Platform)"</NMakeCleanCommandLine>

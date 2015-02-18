@@ -1,3 +1,6 @@
+# include all files in GNU arm toolchain
+!GNUarm4.9/**
+
 TestResults
 *.xcuserstate
 *.dep

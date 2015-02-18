@@ -1,5 +1,6 @@
 # include all files in GNU arm toolchain
-!GNUarm4.9/**
+!GNUarm4.9\*
+!GNUarm4.9\lib\gcc\arm-none-eabi\4.9.3\*
 
 TestResults
 *.xcuserstate

@@ -16,21 +16,19 @@ void Lab6::Run()
    if (!m_switch1.IsPressed())
    {
       m_rgbLED.SetColour(RGBLEDColours::Blue);
+      return;
+   }
+
+   if (m_timer.GetTimeElapsed() != 100) return;
+   
+   if (!m_isDark)
+   {
+      m_rgbLED.SetColour(RGBLEDColours::Dark);
    }
    else
    {
-      if (m_timer.GetTimeElapsed() == 100)
-      {
-         if (!m_isDark)
-         {
-            m_rgbLED.SetColour(RGBLEDColours::Dark);
-         }
-         else
-         {
-            m_rgbLED.SetColour(RGBLEDColours::Blue);
-         }
-         m_isDark = !m_isDark;
-         m_timer.Reset();
-      }
+      m_rgbLED.SetColour(RGBLEDColours::Blue);
    }
+   m_isDark = !m_isDark;
+   m_timer.Reset();
 }

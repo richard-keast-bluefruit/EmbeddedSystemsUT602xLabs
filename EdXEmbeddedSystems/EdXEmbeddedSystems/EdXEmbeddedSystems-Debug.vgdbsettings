@@ -137,5 +137,13 @@
     <Shortcuts />
     <ShowMessageAfterExecuting>true</ShowMessageAfterExecuting>
   </CustomShortcuts>
-  <UserDefinedVariables />
+  <UserDefinedVariables>
+    <BuildVariable>
+      <Label />
+      <Description />
+      <Value>$(GNU_ARM_TOOLCHAIN_DIR)\</Value>
+      <Name>TOOLCHAIN_ROOT</Name>
+      <PromoteToEnvironment>false</PromoteToEnvironment>
+    </BuildVariable>
+  </UserDefinedVariables>
 </VisualGDBProjectSettings2>

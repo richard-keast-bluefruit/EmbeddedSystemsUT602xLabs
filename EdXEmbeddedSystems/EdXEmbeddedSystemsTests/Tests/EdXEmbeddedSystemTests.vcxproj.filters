@@ -15,6 +15,9 @@
     <ClCompile Include="tests.Lab5.cpp">
       <Filter>Tests</Filter>
     </ClCompile>
+    <ClCompile Include="tests.Lab6.cpp">
+      <Filter>Tests</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\..\Mocks\mock.RGBLED.h">
@@ -24,6 +27,9 @@
       <Filter>Mocks</Filter>
     </ClInclude>
     <ClInclude Include="..\..\Mocks\mock.SerialIO.h">
+      <Filter>Mocks</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Mocks\mock.Timer.h">
       <Filter>Mocks</Filter>
     </ClInclude>
   </ItemGroup>

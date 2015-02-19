@@ -30,12 +30,21 @@
     <ClInclude Include="..\Source\SerialIOInterface.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="..\Source\TimerInterface.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Lab6_BranchingFunctionsDelays\Lab6.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\Lab4_IO\Lab4.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="..\Lab5_FunctionsInC\Lab5.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Lab6_BranchingFunctionsDelays\Lab6.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

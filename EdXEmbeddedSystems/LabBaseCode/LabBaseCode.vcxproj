@@ -70,18 +70,18 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClInclude Include="..\Lab4_IO\Lab4.h" />
-    <ClInclude Include="..\Lab5_FunctionsInC\Lab5.h" />
-    <ClInclude Include="..\Lab6_BranchingFunctionsDelays\Lab6.h" />
+    <ClInclude Include="..\Labs\Lab4_IO\Lab4.h" />
+    <ClInclude Include="..\Labs\Lab5_FunctionsInC\Lab5.h" />
+    <ClInclude Include="..\Labs\Lab6_BranchingFunctionsDelays\Lab6.h" />
     <ClInclude Include="..\Source\RGBLEDInterface.h" />
     <ClInclude Include="..\Source\SerialIOInterface.h" />
     <ClInclude Include="..\Source\SwitchInterface.h" />
     <ClInclude Include="..\Source\TimerInterface.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\Lab4_IO\Lab4.cpp" />
-    <ClCompile Include="..\Lab5_FunctionsInC\Lab5.cpp" />
-    <ClCompile Include="..\Lab6_BranchingFunctionsDelays\Lab6.cpp" />
+    <ClCompile Include="..\Labs\Lab4_IO\Lab4.cpp" />
+    <ClCompile Include="..\Labs\Lab5_FunctionsInC\Lab5.cpp" />
+    <ClCompile Include="..\Labs\Lab6_BranchingFunctionsDelays\Lab6.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

@@ -15,16 +15,10 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\Lab4_IO\Lab4.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
     <ClInclude Include="..\Source\RGBLEDInterface.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="..\Source\SwitchInterface.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Lab5_FunctionsInC\Lab5.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="..\Source\SerialIOInterface.h">
@@ -33,18 +27,24 @@
     <ClInclude Include="..\Source\TimerInterface.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\Lab6_BranchingFunctionsDelays\Lab6.h">
+    <ClInclude Include="..\Labs\Lab6_BranchingFunctionsDelays\Lab6.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Labs\Lab5_FunctionsInC\Lab5.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Labs\Lab4_IO\Lab4.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\Lab4_IO\Lab4.cpp">
+    <ClCompile Include="..\Labs\Lab6_BranchingFunctionsDelays\Lab6.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\Lab5_FunctionsInC\Lab5.cpp">
+    <ClCompile Include="..\Labs\Lab5_FunctionsInC\Lab5.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\Lab6_BranchingFunctionsDelays\Lab6.cpp">
+    <ClCompile Include="..\Labs\Lab4_IO\Lab4.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

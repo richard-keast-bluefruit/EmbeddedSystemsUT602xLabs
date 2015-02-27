@@ -377,25 +377,25 @@
 #endif
 
 // --- Include directories begin --- //
-//C:/ti/EdXEmbeddedSystems/Source
-//C:/ti/EdXEmbeddedSystems/Lab4_IO
-//c:\ti\gnuarm4.9\bin\../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/include/c++/4.9.3
-//c:\ti\gnuarm4.9\bin\../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/include/c++/4.9.3/arm-none-eabi/armv7e-m/fpu
-//c:\ti\gnuarm4.9\bin\../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/include/c++/4.9.3/backward
-//c:\ti\gnuarm4.9\bin\../lib/gcc/arm-none-eabi/4.9.3/include
-//c:\ti\gnuarm4.9\bin\../lib/gcc/arm-none-eabi/4.9.3/include-fixed
-//c:\ti\gnuarm4.9\bin\../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/include
-//c:\ti\gnuarm4.9\bin\../arm-none-eabi/usr/include
+//C:/keil/Labware/EdXEmbeddedSystems/Source
+//C:/keil/Labware/EdXEmbeddedSystems/Labs/Lab4_IO
+//c:\keil\labware\gnuarm4.9\bin\../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/include/c++/4.9.3
+//c:\keil\labware\gnuarm4.9\bin\../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/include/c++/4.9.3/arm-none-eabi/armv7e-m/fpu
+//c:\keil\labware\gnuarm4.9\bin\../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/include/c++/4.9.3/backward
+//c:\keil\labware\gnuarm4.9\bin\../lib/gcc/arm-none-eabi/4.9.3/include
+//c:\keil\labware\gnuarm4.9\bin\../lib/gcc/arm-none-eabi/4.9.3/include-fixed
+//c:\keil\labware\gnuarm4.9\bin\../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/include
+//c:\keil\labware\gnuarm4.9\bin\../arm-none-eabi/usr/include
 // --- Include directories end --- //
 
 
 // --- Library directories begin --- //
-//c:/ti/gnuarm4.9/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7e-m/fpu/
-//c:/ti/gnuarm4.9/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu/
-//c:/ti/gnuarm4.9/bin/../arm-none-eabi/lib/armv7e-m/fpu/
-//c:/ti/gnuarm4.9/bin/../lib/gcc/arm-none-eabi/4.9.3/
-//c:/ti/gnuarm4.9/bin/../lib/gcc/
-//c:/ti/gnuarm4.9/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/
-//c:/ti/gnuarm4.9/bin/../arm-none-eabi/lib/
+//c:/keil/labware/gnuarm4.9/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7e-m/fpu/
+//c:/keil/labware/gnuarm4.9/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu/
+//c:/keil/labware/gnuarm4.9/bin/../arm-none-eabi/lib/armv7e-m/fpu/
+//c:/keil/labware/gnuarm4.9/bin/../lib/gcc/arm-none-eabi/4.9.3/
+//c:/keil/labware/gnuarm4.9/bin/../lib/gcc/
+//c:/keil/labware/gnuarm4.9/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/
+//c:/keil/labware/gnuarm4.9/bin/../arm-none-eabi/lib/
 // --- Library directories begin --- //
 

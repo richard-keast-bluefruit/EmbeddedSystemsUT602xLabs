@@ -362,7 +362,7 @@
               <MiscControls></MiscControls>
               <Define>rvmdk PART_LM4F120H5QR __cplusplus</Define>
               <Undefine></Undefine>
-              <IncludePath>..\..\Source;..\..\</IncludePath>
+              <IncludePath>..\Source;..</IncludePath>
             </VariousControls>
           </Cads>
           <Aads>

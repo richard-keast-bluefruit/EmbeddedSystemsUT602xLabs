@@ -18,7 +18,7 @@ void Lab6::Run()
       m_rgbLED.SetColour(RGBLEDColours::Blue);
       return;
    }
-
+  
    if (m_timer.GetTimeElapsed() != 100) return;
    
    if (!m_isDark)
@@ -29,6 +29,7 @@ void Lab6::Run()
    {
       m_rgbLED.SetColour(RGBLEDColours::Blue);
    }
+
    m_isDark = !m_isDark;
    m_timer.Reset();
 }

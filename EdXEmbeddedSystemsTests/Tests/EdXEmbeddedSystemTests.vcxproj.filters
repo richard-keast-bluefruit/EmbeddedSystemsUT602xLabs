@@ -4,10 +4,33 @@
     <Filter Include="Tests">
       <UniqueIdentifier>{dae41284-44d9-468c-820b-ea1c2052c659}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Mocks">
+      <UniqueIdentifier>{4f17cacb-58db-4aa2-ab24-9b3c9a32a755}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="tests.Lab4.cpp">
       <Filter>Tests</Filter>
     </ClCompile>
+    <ClCompile Include="tests.Lab5.cpp">
+      <Filter>Tests</Filter>
+    </ClCompile>
+    <ClCompile Include="tests.Lab6.cpp">
+      <Filter>Tests</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\Mocks\mock.RGBLED.h">
+      <Filter>Mocks</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Mocks\mock.SerialIO.h">
+      <Filter>Mocks</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Mocks\mock.Switch.h">
+      <Filter>Mocks</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Mocks\mock.Timer.h">
+      <Filter>Mocks</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

@@ -100,6 +100,10 @@
     <ClInclude Include="..\..\Mocks\mock.Switch.h" />
     <ClInclude Include="..\..\Mocks\mock.Timer.h" />
   </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\Mocks\mock.RGBLED.h" />
+    <ClInclude Include="..\..\Mocks\mock.Switch.h" />
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>

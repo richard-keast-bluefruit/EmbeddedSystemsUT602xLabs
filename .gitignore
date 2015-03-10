@@ -67,6 +67,14 @@ Exe
 Obj
 List
 
+#Keil
+*.axf
+*.htm
+*.lnp
+*.crf
+*.d
+*.uvgui.*
+
 #WinMerge
 *.bak
 *.orig

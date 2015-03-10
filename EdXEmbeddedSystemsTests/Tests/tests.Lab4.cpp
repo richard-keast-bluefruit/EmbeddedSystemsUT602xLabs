@@ -38,7 +38,7 @@ namespace EdXEmbeddedSystemsTests
 
       // When
       lab4->Run();
-      
+
       // Then
       auto expectedColour = RGBLEDColours::Dark;
       auto actualColour = mockRGBLED->GetLastColour();

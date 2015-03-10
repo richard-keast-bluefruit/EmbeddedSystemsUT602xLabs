@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<EmbeddedProfile xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <ToolchainID>8a52ef9d-39ac-47cd-96cd-327a8dc5a4bc</ToolchainID>
+  <BspID>com.visualgdb.bsp.in-place</BspID>
+  <MCUProperties>
+    <Entries />
+  </MCUProperties>
+  <BSPSourceFolderName>Device-specific files</BSPSourceFolderName>
+  <InPlaceMCU>
+    <CompilationFlags>
+      <PreprocessorMacros />
+      <IncludeDirectories>
+        <string>./../Lab4_IO</string>
+        <string>./../Source</string>
+        <string>./../Lab4/Debug</string>
+      </IncludeDirectories>
+      <CFLAGS>-g -mthumb -mcpu=cortex-m4 -mfloat-abi=hard -mfpu=fpv4-sp-d16 -std=c++11 -specs=nosys.specs</CFLAGS>
+      <CXXFLAGS>-g -mthumb -mcpu=cortex-m4 -mfloat-abi=hard -mfpu=fpv4-sp-d16 -std=c++11 -specs=nosys.specs</CXXFLAGS>
+      <LDFLAGS>-g -mthumb -mcpu=cortex-m4 -mfloat-abi=hard -mfpu=fpv4-sp-d16 -std=c++11 -specs=nosys.specs -TEdXEmbeddedSystems.ld</LDFLAGS>
+      <ASFLAGS>-g -mthumb -mcpu=cortex-m4 -mfloat-abi=hard -mfpu=fpv4-sp-d16 -std=c++11 -specs=nosys.specs</ASFLAGS>
+      <COMMONFLAGS />
+      <EnableLinkerGroups>true</EnableLinkerGroups>
+    </CompilationFlags>
+    <AdditionalSourceFiles />
+    <FLASHSize>0</FLASHSize>
+    <RAMSize>0</RAMSize>
+    <FLASHBase>4294967295</FLASHBase>
+    <RAMBase>4294967295</RAMBase>
+  </InPlaceMCU>
+</EmbeddedProfile>

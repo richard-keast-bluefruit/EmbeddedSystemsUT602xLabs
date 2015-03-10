@@ -13,20 +13,41 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="Interfaces">
+      <UniqueIdentifier>{806759bd-8321-4aa9-9609-167608d06465}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\Lab4_IO\Lab4.h">
+    <ClInclude Include="..\Labs\Lab6_BranchingFunctionsDelays\Lab6.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Labs\Lab5_FunctionsInC\Lab5.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Labs\Lab4_IO\Lab4.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="..\Source\RGBLEDInterface.h">
-      <Filter>Header Files</Filter>
+      <Filter>Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\SerialIOInterface.h">
+      <Filter>Interfaces</Filter>
     </ClInclude>
     <ClInclude Include="..\Source\SwitchInterface.h">
-      <Filter>Header Files</Filter>
+      <Filter>Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\TimerInterface.h">
+      <Filter>Interfaces</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\Lab4_IO\Lab4.cpp">
+    <ClCompile Include="..\Labs\Lab6_BranchingFunctionsDelays\Lab6.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Labs\Lab5_FunctionsInC\Lab5.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Labs\Lab4_IO\Lab4.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

@@ -1,5 +1,6 @@
 #include "LaunchPadSwitch.h"
 #include "tm4c123gh6pm.h"
+#include <cstdint>
 
 LaunchPadSwitch::LaunchPadSwitch(Switches::Value whichSwitch)
  : m_switch(whichSwitch)

@@ -1,5 +1,6 @@
 #include "LaunchPadRGBLED.h"
 #include "tm4c123gh6pm.h"
+#include <cstdint>
 
 static const unsigned short RedLED = 0x02;
 static const unsigned short BlueLED = 0x04;

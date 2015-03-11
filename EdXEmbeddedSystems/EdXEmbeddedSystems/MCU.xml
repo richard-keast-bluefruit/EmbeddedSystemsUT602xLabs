@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <EmbeddedProfile xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-  <ToolchainID>8a52ef9d-39ac-47cd-96cd-327a8dc5a4bc</ToolchainID>
+  <ToolchainID>c83775a4-2297-4de9-a2ba-212d7e02896a</ToolchainID>
   <BspID>com.visualgdb.bsp.in-place</BspID>
   <MCUProperties>
     <Entries />
@@ -10,9 +10,9 @@
     <CompilationFlags>
       <PreprocessorMacros />
       <IncludeDirectories>
-        <string>./../Lab4_IO</string>
-        <string>./../Source</string>
-        <string>./../Lab4/Debug</string>
+        <string>../../Labs/Lab4_IO</string>
+        <string>../../Source/</string>
+        <string>../../Interfaces</string>
       </IncludeDirectories>
       <CFLAGS>-g -mthumb -mcpu=cortex-m4 -mfloat-abi=hard -mfpu=fpv4-sp-d16 -std=c++11 -specs=nosys.specs</CFLAGS>
       <CXXFLAGS>-g -mthumb -mcpu=cortex-m4 -mfloat-abi=hard -mfpu=fpv4-sp-d16 -std=c++11 -specs=nosys.specs</CXXFLAGS>

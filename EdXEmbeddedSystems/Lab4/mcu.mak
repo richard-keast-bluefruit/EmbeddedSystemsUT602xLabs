@@ -4,8 +4,8 @@
 #Use VisualGDB Project Properties dialog or modify Makefile or per-configuration .mak files instead.
 
 #VisualGDB provides BSP_ROOT and TOOLCHAIN_ROOT via environment when running Make. The line below will only be active if GNU Make is started manually.
-BSP_ROOT ?= C:/Keil/Labware/GNUarm4.9
-TOOLCHAIN_ROOT ?= C:/Keil/Labware/GNUarm4.9
+BSP_ROOT ?= C:/GCC_ARM/Schneider-4.9-2014q4
+TOOLCHAIN_ROOT ?= C:/GCC_ARM/Schneider-4.9-2014q4
 
 #Embedded toolchain
 CC := $(TOOLCHAIN_ROOT)/bin/arm-none-eabi-gcc.exe
@@ -16,7 +16,7 @@ OBJCOPY := $(TOOLCHAIN_ROOT)/bin/arm-none-eabi-objcopy.exe
 
 #Additional flags
 PREPROCESSOR_MACROS += 
-INCLUDE_DIRS += C:/keil/Labware/EdXEmbeddedSystems/Source C:/keil/Labware/EdXEmbeddedSystems/Labs/Lab4_IO
+INCLUDE_DIRS += ./../../Source ./../../Labs/Lab4_IO ./../../Interfaces
 LIBRARY_DIRS += 
 LIBRARY_NAMES += 
 ADDITIONAL_LINKER_INPUTS += 
@@ -26,6 +26,6 @@ LINUX_PACKAGES +=
 CFLAGS += -g -mthumb -mcpu=cortex-m4 -mfloat-abi=hard -mfpu=fpv4-sp-d16  -std=c++11 -specs=nosys.specs
 CXXFLAGS += -g -mthumb -mcpu=cortex-m4 -mfloat-abi=hard -mfpu=fpv4-sp-d16  -std=c++11 -specs=nosys.specs
 ASFLAGS += -g -mthumb -mcpu=cortex-m4 -mfloat-abi=hard -mfpu=fpv4-sp-d16  -std=c++11 -specs=nosys.specs
-LDFLAGS += -g -mthumb -mcpu=cortex-m4 -mfloat-abi=hard -mfpu=fpv4-sp-d16 -std=c++11 -specs=nosys.specs -TC:/ti/EdXEmbeddedSystems/EdXEmbeddedSystems/blinky.ld
+LDFLAGS += -g -mthumb -mcpu=cortex-m4 -mfloat-abi=hard -mfpu=fpv4-sp-d16 -std=c++11 -specs=nosys.specs
 COMMONFLAGS += 
 

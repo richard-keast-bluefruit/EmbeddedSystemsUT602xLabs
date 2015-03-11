@@ -35,7 +35,7 @@
   </ImportGroup>
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
-    <NMakeIncludeSearchPath>c:\ti\gnuarm4.9\arm-none-eabi\include\c++\4.9.3;c:\ti\gnuarm4.9\arm-none-eabi\include\c++\4.9.3\arm-none-eabi\armv7e-m\fpu;c:\ti\gnuarm4.9\arm-none-eabi\include\c++\4.9.3\backward;c:\ti\gnuarm4.9\lib\gcc\arm-none-eabi\4.9.3\include;c:\ti\gnuarm4.9\lib\gcc\arm-none-eabi\4.9.3\include-fixed;c:\ti\gnuarm4.9\arm-none-eabi\include;c:\ti\gnuarm4.9\arm-none-eabi\usr\include;$(ProjectDir)\./../Lab4_IO;$(ProjectDir)\./../Source;$(ProjectDir)\./../Lab4/Debug;$(NMakeIncludeSearchPath)</NMakeIncludeSearchPath>
+    <NMakeIncludeSearchPath>c:\gcc_arm\schneider-4.9-2014q4\arm-none-eabi\include\c++\4.9.3;c:\gcc_arm\schneider-4.9-2014q4\arm-none-eabi\include\c++\4.9.3\arm-none-eabi\armv7e-m\fpu;c:\gcc_arm\schneider-4.9-2014q4\arm-none-eabi\include\c++\4.9.3\backward;c:\gcc_arm\schneider-4.9-2014q4\lib\gcc\arm-none-eabi\4.9.3\include;c:\gcc_arm\schneider-4.9-2014q4\lib\gcc\arm-none-eabi\4.9.3\include-fixed;c:\gcc_arm\schneider-4.9-2014q4\arm-none-eabi\include;$(ProjectDir)\../../Labs/Lab4_IO;$(ProjectDir)\../../Source/;$(ProjectDir)\../../Interfaces;$(NMakeIncludeSearchPath)</NMakeIncludeSearchPath>
     <NMakeForcedIncludes>$(ProjectDir)\gcc_Debug.h;$(VISUALGDB_DIR)\gcc_compat.h;$(NMakeForcedIncludes)</NMakeForcedIncludes>
     <NMakeBuildCommandLine>"$(VISUALGDB_DIR)\VisualGDB.exe" /build "$(ProjectPath)" "/solution:$(SolutionPath)" "/config:$(Configuration)" "/platform:$(Platform)"</NMakeBuildCommandLine>
     <NMakeCleanCommandLine>"$(VISUALGDB_DIR)\VisualGDB.exe" /clean "$(ProjectPath)" "/solution:$(SolutionPath)" "/config:$(Configuration)" "/platform:$(Platform)"</NMakeCleanCommandLine>

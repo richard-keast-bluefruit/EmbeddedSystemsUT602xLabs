@@ -27,16 +27,19 @@
     <ClInclude Include="..\Labs\Lab4_IO\Lab4.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\Source\RGBLEDInterface.h">
+    <ClInclude Include="..\Interfaces\RGBLEDInterface.h">
       <Filter>Interfaces</Filter>
     </ClInclude>
-    <ClInclude Include="..\Source\SerialIOInterface.h">
+    <ClInclude Include="..\Interfaces\SerialIOInterface.h">
       <Filter>Interfaces</Filter>
     </ClInclude>
-    <ClInclude Include="..\Source\SwitchInterface.h">
+    <ClInclude Include="..\Interfaces\SwitchInterface.h">
       <Filter>Interfaces</Filter>
     </ClInclude>
-    <ClInclude Include="..\Source\TimerInterface.h">
+    <ClInclude Include="..\Interfaces\TimerInterface.h">
+      <Filter>Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Interfaces\UartInterface.h">
       <Filter>Interfaces</Filter>
     </ClInclude>
   </ItemGroup>

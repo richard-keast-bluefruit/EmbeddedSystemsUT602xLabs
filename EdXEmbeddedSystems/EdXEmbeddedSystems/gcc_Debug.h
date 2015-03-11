@@ -377,26 +377,25 @@
 #endif
 
 // --- Include directories begin --- //
-//c:\ti\gnuarm4.9\bin\../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/include/c++/4.9.3
-//c:\ti\gnuarm4.9\bin\../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/include/c++/4.9.3/arm-none-eabi/armv7e-m/fpu
-//c:\ti\gnuarm4.9\bin\../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/include/c++/4.9.3/backward
-//c:\ti\gnuarm4.9\bin\../lib/gcc/arm-none-eabi/4.9.3/include
-//c:\ti\gnuarm4.9\bin\../lib/gcc/arm-none-eabi/4.9.3/include-fixed
-//c:\ti\gnuarm4.9\bin\../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/include
-//c:\ti\gnuarm4.9\bin\../arm-none-eabi/usr/include
-//./../Lab4_IO
-//./../Source
-//./../Lab4/Debug
+//c:\gcc_arm\schneider-4.9-2014q4\bin\../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/include/c++/4.9.3
+//c:\gcc_arm\schneider-4.9-2014q4\bin\../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/include/c++/4.9.3/arm-none-eabi/armv7e-m/fpu
+//c:\gcc_arm\schneider-4.9-2014q4\bin\../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/include/c++/4.9.3/backward
+//c:\gcc_arm\schneider-4.9-2014q4\bin\../lib/gcc/arm-none-eabi/4.9.3/include
+//c:\gcc_arm\schneider-4.9-2014q4\bin\../lib/gcc/arm-none-eabi/4.9.3/include-fixed
+//c:\gcc_arm\schneider-4.9-2014q4\bin\../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/include
+//../../Labs/Lab4_IO
+//../../Source/
+//../../Interfaces
 // --- Include directories end --- //
 
 
 // --- Library directories begin --- //
-//c:/ti/gnuarm4.9/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7e-m/fpu/
-//c:/ti/gnuarm4.9/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu/
-//c:/ti/gnuarm4.9/bin/../arm-none-eabi/lib/armv7e-m/fpu/
-//c:/ti/gnuarm4.9/bin/../lib/gcc/arm-none-eabi/4.9.3/
-//c:/ti/gnuarm4.9/bin/../lib/gcc/
-//c:/ti/gnuarm4.9/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/
-//c:/ti/gnuarm4.9/bin/../arm-none-eabi/lib/
+//c:/gcc_arm/schneider-4.9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7e-m/fpu/
+//c:/gcc_arm/schneider-4.9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu/
+//c:/gcc_arm/schneider-4.9-2014q4/bin/../arm-none-eabi/lib/armv7e-m/fpu/
+//c:/gcc_arm/schneider-4.9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/
+//c:/gcc_arm/schneider-4.9-2014q4/bin/../lib/gcc/
+//c:/gcc_arm/schneider-4.9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/
+//c:/gcc_arm/schneider-4.9-2014q4/bin/../arm-none-eabi/lib/
 // --- Library directories begin --- //
 

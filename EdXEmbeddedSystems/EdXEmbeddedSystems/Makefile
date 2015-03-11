@@ -24,7 +24,7 @@ error:
 endif
 
 SOURCEFILES := main.cpp startup_gcc.c
-EXTERNAL_LIBS := 
+EXTERNAL_LIBS := ../Lab4/$(BINARYDIR)/Lab4.a
 EXTERNAL_LIBS_COPIED := $(foreach lib, $(EXTERNAL_LIBS),$(BINARYDIR)/$(notdir $(lib)))
 
 CFLAGS += $(COMMONFLAGS)
@@ -163,3 +163,6 @@ $(BINARYDIR)/%.o : %.cxx $(all_make_files) |$(BINARYDIR)
 	$(CC) $(CFLAGS) $(CXXFLAGS) -c $< -o $@ -MD -MF $(@:.o=.dep)
 
 #VisualGDB: GeneratedRules				#<--- All lines below are auto-generated
+$(BINARYDIR)/Lab4.a : ../Lab4/$(BINARYDIR)/Lab4.a
+	$(CP) ../Lab4/$(BINARYDIR)/Lab4.a $(BINARYDIR)/Lab4.a
+

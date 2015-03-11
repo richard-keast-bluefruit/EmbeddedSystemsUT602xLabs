@@ -37,54 +37,51 @@
     </None>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\Source\GraderSerialIO.cpp">
+    <ClCompile Include="..\..\Labs\Lab4_IO\Lab4.cpp">
       <Filter>Source files</Filter>
     </ClCompile>
-    <ClCompile Include="..\Source\LaunchPadRGBLED.cpp">
+    <ClCompile Include="..\..\Labs\Lab4_IO\LaunchPad.cpp">
       <Filter>Source files</Filter>
     </ClCompile>
-    <ClCompile Include="..\Source\LaunchPadSwitch.cpp">
+    <ClCompile Include="..\..\Source\LaunchPadRGBLED.cpp">
       <Filter>Source files</Filter>
     </ClCompile>
-    <ClCompile Include="..\Source\SerialIO.cpp">
+    <ClCompile Include="..\..\Source\LaunchPadSwitch.cpp">
       <Filter>Source files</Filter>
     </ClCompile>
-    <ClCompile Include="..\Lab4_IO\LaunchPad.cpp">
+    <ClCompile Include="..\..\Source\SerialIO.cpp">
       <Filter>Source files</Filter>
     </ClCompile>
-    <ClCompile Include="..\Lab4_IO\Lab4.cpp">
+    <ClCompile Include="..\..\Source\GraderSerialIO.cpp">
       <Filter>Source files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\Source\GraderSerialIO.h">
+    <ClInclude Include="..\..\Source\GraderSerialIO.h">
       <Filter>Header files</Filter>
     </ClInclude>
-    <ClInclude Include="..\Source\LaunchPadRGBLED.h">
+    <ClInclude Include="..\..\Source\LaunchPadRGBLED.h">
       <Filter>Header files</Filter>
     </ClInclude>
-    <ClInclude Include="..\Source\LaunchPadSwitch.h">
+    <ClInclude Include="..\..\Source\LaunchPadSwitch.h">
       <Filter>Header files</Filter>
     </ClInclude>
-    <ClInclude Include="..\Source\LaunchPadSwitches.h">
+    <ClInclude Include="..\..\Source\LaunchPadSwitches.h">
       <Filter>Header files</Filter>
     </ClInclude>
-    <ClInclude Include="..\Source\LaunchPadUart0.h">
+    <ClInclude Include="..\..\Source\LaunchPadUart0.h">
       <Filter>Header files</Filter>
     </ClInclude>
-    <ClInclude Include="..\Source\RGBLEDInterface.h">
+    <ClInclude Include="..\..\Source\SerialIO.h">
       <Filter>Header files</Filter>
     </ClInclude>
-    <ClInclude Include="..\Source\SwitchInterface.h">
+    <ClInclude Include="..\..\Source\tm4c123gh6pm.h">
       <Filter>Header files</Filter>
     </ClInclude>
-    <ClInclude Include="..\Lab4_IO\Lab4.h">
+    <ClInclude Include="..\..\Labs\Lab4_IO\Lab4.h">
       <Filter>Header files</Filter>
     </ClInclude>
-    <ClInclude Include="..\Lab4_IO\LaunchPad.h">
-      <Filter>Header files</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Source\tm4c123gh6pm.h">
+    <ClInclude Include="..\..\Labs\Lab4_IO\LaunchPad.h">
       <Filter>Header files</Filter>
     </ClInclude>
   </ItemGroup>

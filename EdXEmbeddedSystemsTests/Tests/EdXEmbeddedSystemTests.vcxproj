@@ -52,7 +52,7 @@
       <WarningLevel>Level3</WarningLevel>
       <Optimization>Disabled</Optimization>
       <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>$(ProjectDir)\..\..\gtest-1.7.0\include;$(ProjectDir)\..\..\Source;$(ProjectDir)\..\..\Mocks;$(ProjectDir)\..\..\Labs\Lab4_IO;$(ProjectDir)\..\..\Labs\Lab5_FunctionsInC;$(ProjectDir)\..\..\Labs\Lab6_BranchingFunctionsDelays;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>$(ProjectDir)\..\..\gtest-1.7.0\include;$(ProjectDir)\..\..\Interfaces;$(ProjectDir)\..\..\Source;$(ProjectDir)\..\..\Mocks;$(ProjectDir)\..\..\Labs\Lab4_IO;$(ProjectDir)\..\..\Labs\Lab5_FunctionsInC;$(ProjectDir)\..\..\Labs\Lab6_BranchingFunctionsDelays;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
       <AdditionalOptions>%(AdditionalOptions)</AdditionalOptions>
     </ClCompile>

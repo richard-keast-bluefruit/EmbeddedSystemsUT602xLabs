@@ -11,23 +11,22 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{FD34733A-89D4-4691-BE16-4E37C5680BB1}</ProjectGuid>
-    <Keyword>Win32Proj</Keyword>
-    <RootNamespace>EdXEmbeddedSystemTests</RootNamespace>
+    <ProjectGuid>{A79DBEFE-4A9F-4A21-ABCB-C5DDCDDB8101}</ProjectGuid>
+    <RootNamespace>LabBaseCode</RootNamespace>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
-    <ConfigurationType>Application</ConfigurationType>
+    <ConfigurationType>StaticLibrary</ConfigurationType>
     <UseDebugLibraries>true</UseDebugLibraries>
     <PlatformToolset>v120</PlatformToolset>
-    <CharacterSet>Unicode</CharacterSet>
+    <CharacterSet>MultiByte</CharacterSet>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
     <ConfigurationType>Application</ConfigurationType>
     <UseDebugLibraries>false</UseDebugLibraries>
     <PlatformToolset>v120</PlatformToolset>
     <WholeProgramOptimization>true</WholeProgramOptimization>
-    <CharacterSet>Unicode</CharacterSet>
+    <CharacterSet>MultiByte</CharacterSet>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
   <ImportGroup Label="ExtensionSettings">
@@ -40,63 +39,50 @@
   </ImportGroup>
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
-    <LinkIncremental>true</LinkIncremental>
-  </PropertyGroup>
-  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
-    <LinkIncremental>false</LinkIncremental>
+    <TargetExt>.lib</TargetExt>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <ClCompile>
-      <PrecompiledHeader>
-      </PrecompiledHeader>
       <WarningLevel>Level3</WarningLevel>
       <Optimization>Disabled</Optimization>
-      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>$(ProjectDir)\..\..\gtest-1.7.0\include;$(ProjectDir)\..\..\Interfaces;$(ProjectDir)\..\..\Source;$(ProjectDir)\..\..\Mocks;$(ProjectDir)\..\..\Labs\Lab4_IO;$(ProjectDir)\..\..\Labs\Lab5_FunctionsInC;$(ProjectDir)\..\..\Labs\Lab6_BranchingFunctionsDelays;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
       <AdditionalOptions>%(AdditionalOptions)</AdditionalOptions>
+      <AdditionalIncludeDirectories>$(ProjectDir)\..\..\Source;$(ProjectDir)\..\..\Interfaces;$(ProjectDir)\..\..\Labs\Lab4_IO;$(ProjectDir)\..\..\Labs\Lab5_FunctionsInC;$(ProjectDir)\..\..\Labs\Lab6_BranchingFunctionsDelays;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
-      <SubSystem>Console</SubSystem>
       <GenerateDebugInformation>true</GenerateDebugInformation>
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
     <ClCompile>
       <WarningLevel>Level3</WarningLevel>
-      <PrecompiledHeader>
-      </PrecompiledHeader>
       <Optimization>MaxSpeed</Optimization>
       <FunctionLevelLinking>true</FunctionLevelLinking>
       <IntrinsicFunctions>true</IntrinsicFunctions>
-      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
     </ClCompile>
     <Link>
-      <SubSystem>Console</SubSystem>
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <EnableCOMDATFolding>true</EnableCOMDATFolding>
       <OptimizeReferences>true</OptimizeReferences>
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ProjectReference Include="..\..\gtest-1.7.0\msvc\gtest.vcxproj">
-      <Project>{c8f6c172-56f2-4e76-b5fa-c3b423b31be7}</Project>
-    </ProjectReference>
-    <ProjectReference Include="..\..\gtest-1.7.0\msvc\gtest_main.vcxproj">
-      <Project>{3af54c8a-10bf-4332-9147-f68ed9862032}</Project>
-    </ProjectReference>
-    <ProjectReference Include="..\LabBaseCode\LabBaseCode.vcxproj">
-      <Project>{a79dbefe-4a9f-4a21-abcb-c5ddcddb8101}</Project>
-    </ProjectReference>
+    <ClInclude Include="..\..\Interfaces\RGBLEDInterface.h" />
+    <ClInclude Include="..\..\Interfaces\SerialIOInterface.h" />
+    <ClInclude Include="..\..\Interfaces\SwitchInterface.h" />
+    <ClInclude Include="..\..\Interfaces\TimerInterface.h" />
+    <ClInclude Include="..\..\Interfaces\UartInterface.h" />
+    <ClInclude Include="..\..\Labs\Lab4_IO\Lab4.h" />
+    <ClInclude Include="..\..\Labs\Lab5_FunctionsInC\Lab5.h" />
+    <ClInclude Include="..\..\Labs\Lab6_BranchingFunctionsDelays\Lab6.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="tests.Lab4.cpp" />
-    <ClCompile Include="tests.Lab5.cpp" />
-    <ClCompile Include="tests.Lab6.cpp" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="..\..\Mocks\mock.SerialIO.h" />
-    <ClInclude Include="..\..\Mocks\mock.Timer.h" />
+    <ClCompile Include="..\..\Labs\Lab4_IO\Lab4.cpp" />
+    <ClCompile Include="..\..\Labs\Lab5_FunctionsInC\Lab5.cpp" />
+    <ClCompile Include="..\..\Labs\Lab6_BranchingFunctionsDelays\Lab6.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

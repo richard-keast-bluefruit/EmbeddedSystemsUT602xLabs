@@ -10,4 +10,3 @@ Mocks – where the mocks live, used for unit testing
 Source – where the reusable code for the LaunchPad lives, ie. LaunchPadSwitch.cpp, LaunchPadRGBLED.cpp etc.
 Other – where other projects can live for now
 gtest-1.7.0 – Google Test framework
-

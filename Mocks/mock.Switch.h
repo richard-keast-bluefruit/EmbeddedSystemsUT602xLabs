@@ -7,12 +7,14 @@ class MockSwitch : public SwitchInterface
 {
 public:
    MockSwitch()
-   : m_switchPressed(false)
+   : m_switchPressed(false),
+   m_timesChecked(0)
    {
    }
 
    bool IsPressed()
    {
+      m_timesChecked++;
       return m_switchPressed;
    }
 
@@ -21,6 +23,8 @@ public:
    {
       m_switchPressed = pressed;
    }
+
+   int m_timesChecked;
 
 private:
    bool m_switchPressed;

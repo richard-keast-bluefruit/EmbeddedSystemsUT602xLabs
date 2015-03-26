@@ -56,4 +56,21 @@ namespace EdXEmbeddedSystemsTests
       // Then
       ASSERT_FALSE(mockReadyLED->isOn);
    }
+
+   TEST_F(TestLab7, after_switch_pressed_10ms_elapses_before_checking_if_switch_released)
+   {
+      mockAtrialSensorSwitch->SetPressed(true);
+      lab7->Run();
+
+      const int numberOfmsToRun = 10;
+      for (int i = 0; i != numberOfmsToRun; ++i)
+      {
+         mockTimer->MockElapseTime(1);
+         lab7->Run();
+         ASSERT_EQ(1, mockAtrialSensorSwitch->m_timesChecked);
+      }
+      mockTimer->MockElapseTime(1);
+      lab7->Run();
+      ASSERT_EQ(2, mockAtrialSensorSwitch->m_timesChecked);
+   }
 }

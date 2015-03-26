@@ -19,6 +19,8 @@ private:
    LEDInterface &m_readyLED;
    LEDInterface &m_triggerLED;
    SwitchInterface &m_atrialSensor;
+   unsigned int m_timeAtLastCheck;
+   bool m_readyState;
 };
 
 #endif

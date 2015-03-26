@@ -25,7 +25,7 @@ public:
    // mock helpers
    void MockElapseTime(unsigned int timeInMs)
    {
-      m_elapsedTime = timeInMs;
+      m_elapsedTime += timeInMs;
    }
 
 private:

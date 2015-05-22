@@ -1,0 +1,11 @@
+#include "LaunchPad.h"
+
+int main(void)
+{  
+   //LaunchPad launchPad;
+   
+   while(1)
+	{
+      //launchPad.Run();
+	}
+}
